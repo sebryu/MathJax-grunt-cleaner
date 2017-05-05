@@ -405,6 +405,25 @@ module.exports = function(grunt) {
     "clean:images",
     "clean:notcode"
   ]);
+  grunt.registerTask("TeX-MML-AM_HTMLorMML", [
+    "clean:unpacked",
+    "clean:fontAsana",
+    "clean:fontGyrePagella",
+    "clean:fontGyreTermes",
+    "clean:fontLatinModern",
+    "clean:fontNeoEuler",
+    "clean:fontStix",
+    "clean:fontStixWeb",
+    "clean:eot",
+    "clean:png",
+    "clean:svg",
+    "clean:woff",
+    "clean:svgOutput",
+    "clean:locales",
+    "clean:miscConfig",
+    "clean:images",
+    "clean:notcode"
+  ]);
   grunt.registerTask("mjNode", [
     "clean:packed",
     "clean:allConfigs",
